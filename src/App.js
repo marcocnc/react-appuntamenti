@@ -10,6 +10,10 @@ function App() {
     setPeople((oldValue) => oldValue.filter((person) => person.id !==id));
   }
 
+  const resetAll = () =>{
+    setPeople(data);
+  }
+
 
 
   return (
@@ -21,7 +25,7 @@ function App() {
       </div>
           <div className="container">
             <div className="btn-group my-5">
-              <button className="btn btn-reset">
+              <button className="btn btn-reset" onClick={resetAll}>
                 Reload
               </button>
 
