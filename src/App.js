@@ -5,7 +5,10 @@ import data from "./data/data";
 function App() {
   const [people, setPeople] = useState(data);
 
-  
+  const deletePerson = (id) =>{
+    // const newPeople = data.filter(person => person.id !== id);
+    setPeople((oldValue) => oldValue.filter((person) => person.id !==id));
+  }
 
 
 
@@ -13,7 +16,7 @@ function App() {
     <section>
       <div className="container">
         <div className="people-list">
-            <List data={people} />
+            <List data={people} deletePerson={deletePerson}/>
           </div>
           <div className="btn-group">
             <button className="btn btn-reset">
