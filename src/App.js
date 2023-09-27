@@ -18,16 +18,18 @@ function App() {
         <div className="people-list">
             <List data={people} deletePerson={deletePerson}/>
           </div>
-          <div className="btn-group">
-            <button className="btn btn-reset">
-              Reload
-            </button>
-
-            <button className="btn btn-delete">
-              Delete all
-            </button>
-          </div>
       </div>
+          <div className="container">
+            <div className="btn-group my-5">
+              <button className="btn btn-reset">
+                Reload
+              </button>
+
+              <button className="btn btn-delete">
+                Delete all
+              </button>
+            </div>
+          </div>
 
     </section>
   );
