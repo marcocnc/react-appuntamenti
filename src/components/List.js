@@ -22,7 +22,7 @@ const Person = ({id, name, state, img, deletePerson}) =>{
             <div className="person-info">
                 <div className="person-action">
                 <h4>{name}</h4>
-                <button className="btn" onClick={()=> deletePerson(id)}>
+                <button className="btn btn-danger" onClick={()=> deletePerson(id)}>
                     Elimina
                 </button>
                 </div>

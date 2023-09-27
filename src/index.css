@@ -98,7 +98,7 @@ p {
 .btn {
   display: inline-block;
   border: none;
-  padding: 0.4rem 1.25rem;
+  padding: 2rem 1.30rem;
   border-radius: var(--btn-radius);
   box-shadow: var(--light-shadow);
   letter-spacing: var(--letter-spacing);
