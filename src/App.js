@@ -21,7 +21,7 @@ function App() {
 
   return (
     <section>
-      <h2 className="text-center mb-3">Ecco i tuoi appuntamenti!</h2>
+      <h2 className="text-center mb-3 title">Ecco i tuoi appuntamenti!</h2>
       <div className="container">
         <div className="people-list">
             <List data={people} deletePerson={deletePerson}/>

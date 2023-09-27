@@ -1,6 +1,13 @@
 import React from 'react';
 
 const List = (props) => {
+    if(props.data.length === 0){
+        return (
+          <div>
+            <h1 className="text-white text-center py-2"> Non ci sono appuntamenti!</h1>
+          </div>
+        )
+     }
     console.log(props.data);
   return (
     <ul>
