@@ -17,7 +17,7 @@ const List = (props) => {
 
 const Person = ({id, name, state, img}) =>{
     return(
-        <div>
+        <div className="person-card py-5 mx-3">
             <img src={img} alt="prs" className="person-img" />
             <div className="person-info">
                 <div className="person-action">
