@@ -9,4 +9,5 @@ Non ho dato molto peso allo stile dato che volevo applicarmi più sul codice Rea
 ### Funzioni
 - Si può eliminare la singola persona;
 - Si può resettare tutta la lista;
-- Si può eliminare l'intera lista.
+- Si può eliminare l'intera lista;
+- Apparirà un messaggio in cui la lista fosse vuota.
